@@ -1,3 +1,6 @@
+!pip install streamlit
+
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -5,9 +8,8 @@ import pickle
 import json
 import os
 
-# Define the paths for the JSON and pickle files
-json_file = 'columns.json'  # Update if needed
-pickle_file = 'banglore_home_prices_model.pickle'  # Update if needed
+json_file = 'columns.json'  
+pickle_file = 'banglore_home_prices_model.pickle'  
 
 @st.cache
 def load_data_columns(json_file):
