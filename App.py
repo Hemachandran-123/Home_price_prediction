@@ -7,7 +7,7 @@ import os
 
 
 json_file = 'columns.json'  
-pickle_file = 'banglore_home_prices_model.pickle'  # Update if needed
+pickle_file = 'banglore_home_prices_model.pickle' 
 
 @st.cache_data
 def load_data_columns(json_file):
